@@ -1,0 +1,9 @@
+CREATE TABLE programa_starter(
+
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cpf VARCHAR(255) NOT NULL,
+    quatro_letras VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+
+);
